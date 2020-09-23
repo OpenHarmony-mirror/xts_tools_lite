@@ -269,7 +269,7 @@ def record_test_component_info(out_dir, version):
         json.dump(test_component_data, out_file)
 
 def get_target_modules(all_features):
-    eature_list = []
+    feature_list = []
     if all_features:
         for feature in all_features.split(","):
             if feature:
